@@ -4,182 +4,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anantleela Creations</title>
 
-<title>Anantleela Creations | Laddu Gopal Dresses</title>
+<link rel="stylesheet" href="style.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins',sans-serif;
-scroll-behavior:smooth;
-}
-
-body{
-background:#FFF8F3;
-color:#333;
-}
-
-header{
-
-position:sticky;
-top:0;
-z-index:999;
-background:white;
-box-shadow:0 5px 20px rgba(0,0,0,.08);
-
-}
-
-.container{
-
-width:90%;
-max-width:1300px;
-margin:auto;
-
-}
-
-nav{
-
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:18px 0;
-
-}
-
-.logo{
-
-font-size:34px;
-font-weight:700;
-color:#295C9B;
-
-}
-
-.logo span{
-
-color:#C79A3B;
-
-}
-
-.menu{
-
-display:flex;
-gap:30px;
-
-}
-
-.menu a{
-
-text-decoration:none;
-font-weight:500;
-color:#444;
-transition:.3s;
-
-}
-
-.menu a:hover{
-
-color:#295C9B;
-
-}
-
-.hero{
-
-padding:80px 0;
-
-}
-
-.hero .container{
-
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:60px;
-align-items:center;
-
-}
-
-.hero h4{
-
-color:#C79A3B;
-font-size:22px;
-margin-bottom:15px;
-
-}
-
-.hero h1{
-
-font-size:58px;
-line-height:70px;
-margin-bottom:20px;
-color:#295C9B;
-
-}
-
-.hero p{
-
-font-size:18px;
-line-height:32px;
-margin-bottom:35px;
-
-}
-
-.btn{
-
-display:inline-block;
-padding:15px 35px;
-background:#295C9B;
-color:white;
-text-decoration:none;
-border-radius:50px;
-transition:.3s;
-font-weight:600;
-
-}
-
-.btn:hover{
-
-background:#C79A3B;
-
-}
-
-.hero img{
-
-width:100%;
-border-radius:25px;
-box-shadow:0 20px 40px rgba(0,0,0,.12);
-
-}
-
-@media(max-width:900px){
-
-.hero .container{
-
-grid-template-columns:1fr;
-
-}
-
-.menu{
-
-display:none;
-
-}
-
-.hero h1{
-
-font-size:42px;
-line-height:55px;
-
-}
-
-}
-
-</style>
 
 </head>
 
@@ -189,29 +21,23 @@ line-height:55px;
 
 <div class="container">
 
+<div class="logo">
+Anantleela Creations
+</div>
+
 <nav>
 
-<div class="logo">
+<ul>
 
-Anantleela <span>Creations</span>
+<li><a href="#home">Home</a></li>
 
-</div>
+<li><a href="#poshak">Poshak</a></li>
 
-<div class="menu">
+<li><a href="#shringar">Shringar</a></li>
 
-<a href="#">Home</a>
+<li><a href="#contact">Contact Us</a></li>
 
-<a href="#">Poshak</a>
-
-<a href="#">Janmashtami</a>
-
-<a href="#">New Arrivals</a>
-
-<a href="#">Best Sellers</a>
-
-<a href="#">Contact</a>
-
-</div>
+</ul>
 
 </nav>
 
@@ -219,11 +45,11 @@ Anantleela <span>Creations</span>
 
 </header>
 
-<section class="hero">
+<!-- HERO SECTION -->
 
-<div class="container">
+<section class="hero" id="home">
 
-<div>
+<div class="hero-text">
 
 <h4>🙏 Jai Shri Krishna</h4>
 
@@ -233,11 +59,12 @@ Premium Laddu Gopal Dresses
 
 <p>
 
-Discover beautifully handcrafted Laddu Gopal dresses designed with devotion, elegance and love for every festival and daily seva.
+Discover beautiful handcrafted Laddu Gopal dresses made with devotion and love.
 
 </p>
 
-<a class="btn" href="https://wa.me/918813053632">
+<a class="btn"
+href="https://wa.me/91YOURNUMBER?text=Jai%20Shri%20Krishna%20🙏%0A%0AI%20am%20interested%20in%20your%20products.">
 
 Order on WhatsApp
 
@@ -245,101 +72,170 @@ Order on WhatsApp
 
 </div>
 
-<div>
+<div class="hero-image">
 
-<img src="laddu%20goap%20ji%20dress.jpeg">
-
-</div>
+<img src="laddu goap ji dress.jpeg">
 
 </div>
 
 </section>
 
+<!-- FEATURED PRODUCTS -->
+
 <section class="products" id="poshak">
 
-<div class="container">
+<h2>
 
-<h2 class="section-title">
-🌸 Featured Laddu Gopal Dresses 🌸
+Featured Collection
+
 </h2>
-
-<p class="section-subtitle">
-Beautiful handcrafted poshak made with love & devotion.
-</p>
 
 <div class="product-grid">
 
 <div class="card">
 
-<img src="laddu goap ji dress.jpeg" alt="Sky Blue Dress">
+<img src="laddu goap ji dress.jpeg">
 
-<div class="card-content">
+<h3>
 
-<h3>Sky Blue Designer Dress</h3>
+Sky Blue Dress
+
+</h3>
 
 <p>
-Elegant handcrafted Laddu Gopal Ji dress made with premium fabric.
+
+Premium Handmade Dress
+
 </p>
 
-<div class="price">₹299</div>
+<span>
 
-<a class="order-btn"
-href="https://wa.me/91YOURNUMBER?text=Jai%20Shri%20Krishna%20🙏%0A%0AI%20want%20to%20order%20Sky%20Blue%20Designer%20Dress">
-Order on WhatsApp
+₹299
+
+</span>
+
+<a href="#">
+
+Order Now
+
 </a>
-
-</div>
 
 </div>
 
 <div class="card">
 
-<img src="laddu goap ji dress1.jpeg" alt="Royal Red Dress">
+<img src="laddu goap ji dress1.jpeg">
 
-<div class="card-content">
+<h3>
 
-<h3>Royal Red Dress</h3>
+Royal Red Dress
+
+</h3>
 
 <p>
-Premium festive poshak specially designed for Laddu Gopal Ji.
+
+Festival Collection
+
 </p>
 
-<div class="price">₹349</div>
+<span>
 
-<a class="order-btn"
-href="https://wa.me/91YOURNUMBER?text=Jai%20Shri%20Krishna%20🙏%0A%0AI%20want%20to%20order%20Royal%20Red%20Dress">
-Order on WhatsApp
+₹349
+
+</span>
+
+<a href="#">
+
+Order Now
+
 </a>
-
-</div>
 
 </div>
 
 <div class="card">
 
-<img src="laddu goap ji dress2.jpeg" alt="Blue Floral Dress">
+<img src="laddu goap ji dress2.jpeg">
 
-<div class="card-content">
+<h3>
 
-<h3>Blue Floral Dress</h3>
+Blue Floral Dress
+
+</h3>
 
 <p>
-Designer floral dress for Laddu Gopal Ji, perfect for festivals and daily seva.
+
+Daily Seva Collection
+
 </p>
 
-<div class="price">₹329</div>
+<span>
 
-<a class="order-btn"
-href="https://wa.me/91YOURNUMBER?text=Jai%20Shri%20Krishna%20🙏%0A%0AI%20want%20to%20order%20Blue%20Floral%20Dress">
-Order on WhatsApp
+₹329
+
+</span>
+
+<a href="#">
+
+Order Now
+
 </a>
-
-</div>
-
-</div>
 
 </div>
 
 </div>
 
 </section>
+
+<!-- SHRINGAR -->
+
+<section class="coming" id="shringar">
+
+<h2>
+
+Shringar Collection
+
+</h2>
+
+<p>
+
+Coming Soon...
+
+</p>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+<h2>
+
+Contact Us
+
+</h2>
+
+<p>
+
+📞 WhatsApp
+
+</p>
+
+<p>
+
+📍 Ghaziabad, Uttar Pradesh
+
+</p>
+
+</section>
+
+<footer>
+
+© 2026 Anantleela Creations
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
